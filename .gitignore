@@ -1,0 +1,8 @@
+/node_modules
+
+npm-debug.log
+.DS_Store
+yarn.lock
+package-lock.json
+index.pack.js
+
