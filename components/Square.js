@@ -9,8 +9,12 @@ const Square = ({ val, onClick }) => {
   );
 };
 
+Square.defaultProps = {
+  val: '',
+};
+
 Square.propTypes = {
-  val: PropTypes.number.isRequired,
+  val: PropTypes.string,
   onClick: PropTypes.func.isRequired,
 };
 
